@@ -1,0 +1,3 @@
+[submodule "ff-cookbooks"]
+  path = ff-cookbooks
+  url = git@github.com:feedforce/ff-cookbooks.git
