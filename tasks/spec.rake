@@ -19,7 +19,7 @@ namespace :spec do
     desc "Run serverspec to #{host[:name]}"
     ServerspecTask.new(host[:short_name].to_sym) do |t|
       t.target = host[:name]
-      t.pattern = "spec/role/#{host[:role]}_spec.rb"
+      t.pattern = "spec/roles/#{host[:role]}_spec.rb"
     end
   end
 end
