@@ -1,4 +1,5 @@
 require 'rspec/core/rake_task'
+require 'yaml'
 
 class ServerspecTask < RSpec::Core::RakeTask
   attr_accessor :target
